@@ -1,4 +1,17 @@
+/* FUNCTION -->  instrucciones que realizan una tarea o calculan un valor*/
+
+
+
 //---------------FUNCIONES SIMPLES---------------
+
+
+/*Declaracion de una funcion sin return*/
+ 
+ function imprimeMensaje() {
+    console.log('Hola soy una funcion!');
+}
+
+imprimeMensaje();
 
 
 //mandar una alerta con mi nombre
@@ -17,6 +30,20 @@ function generarAleatorio(){
   let aleatorio = Math.floor(Math.random()*(10-5)+5);
   alert(aleatorio);
 }
+
+
+
+//*---------FUNCIONES CON RETORNO RETURN---------
+
+
+/*Declaracion de una funcion con return*/
+function calculaPromedioDeTresNumeros(num1, num2, num3){
+    let promedio = (num1 + num2 +num3)/3;
+    //  return 'El promedio es: ' + promedio + ' dolares';
+    return `El promedio es: ${promedio} dolares`;
+}
+console.log(calculaPromedioDeTresNumeros(35, 10, 9));
+
 
 
 /*-------------FUNCIONES CON PARAMETROS-----------
@@ -48,9 +75,6 @@ function calcularEdad(anio_nac){
 }
 
 //calcularEdad(1985);
-
-
-//*---------FUNCIONES CON RETORNO RETURN---------
 
 
 //Pasar numero decimal a binario
