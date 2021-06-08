@@ -35,7 +35,15 @@ imprimirVocales();
 
 //Escribir un programa que muestre a un piloto las indicaciones para llegar desde el origen hasta el destino.//
 
+function indicaciones_izquierda(){
+    console.log("Seguir recto una cuadra");
+    console.log("Cruzar a la izquierda");
+}
 
+function indicaciones_derecha(){
+    console.log("Seguir recto una cuadra");
+    console.log("Cruzar a la derecha");
+}
 
 
 
