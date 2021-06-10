@@ -39,7 +39,7 @@ function numeroPrimoEncontrar(){
   }
   //Si no es un número positivo se crea un 
   //error de TYPEERROR
-  else if(numer<=1){
+  else if(numero<=1){
     alert('El argumento debe ser un número entero positivo.');
   }
 
@@ -47,20 +47,17 @@ function numeroPrimoEncontrar(){
     //Con Raiz Cuadrada se va a determinar si el numero es primo.
   let raizCuadrada = Math.floor(Math.sqrt(numero))+1;
 
-  for(let i=2; i< raiz; ++i){
+  for(let i=2; i< raizCuadrada; ++i){
     if(numero % i ==0){
-      return alert("El numero:" +numero+ "no es PRIMO." );
+      return alert("El numero: " +numero+ " no es PRIMO." );
     }
   }
 
-  return alert("El numero:" +numero+ " es PRIMO." );
+  return alert("El numero: " +numero+ " es PRIMO." );
   }
 
 }
 
-
-
-
-
+numeroPrimoEncontrar();
 
 //**========================================================= */
