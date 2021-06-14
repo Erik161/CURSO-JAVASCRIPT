@@ -17,6 +17,22 @@ function histograma(numero1,numero2,numero3,numero4,numero5){
 
 
 
+//**=======================EJERCICIO 2 ======================= */
+
+function calculoMasaCorporal(){
+
+  alert("CALCULO DEL INDICE DE MASA CORPORAL (IMC)")
+  let peso =   parseInt(prompt("Ingrese su PESO"));
+  let altura = parseInt(prompt("Ingrese su ALTURA"));
+  let imc = peso / (altura * altura);
+
+  alert("Su IMC es: " +Math.round(imc));
+}
+
+calculoMasaCorporal();
+
+
+//**========================================================= */
 
 
 
