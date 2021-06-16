@@ -171,6 +171,46 @@ menuCalculadora();
 
 
 
+//**=======================EJERCICIO 5 ======================= */
+
+function convertidorTemperaturaCelsius(){
+  alert( "=========CONVERTIDOR DE TEMPERATURA========= \n \n Convierta de temperatura Celsius a FAHRENHEIT o KELVIN" );
+
+  let celsius = Number(prompt("Ingrese una temperatura en grados Celsius"));
+  let opcion = Number(prompt("=========SELECCIONE UNA OPCION PARA CONVERTIR========= \n 1. FAHRENHEIT \n 2. KELVIN "))
+  let resultado=0;
+  
+    switch (opcion) {
+      case 1:
+              function convertirCelsiusaFahrenheit(celsius){
+                resultado = celsius * 1.8 + 32;
+                return alert("Los Grados Fahrenheit son : " +resultado);
+              }
+              convertirCelsiusaFahrenheit(celsius);
+              break;
+      case 2: 
+              function convertirCelsiusaKelvin(celsius){
+                resultado = celsius + 273.15;
+                return alert("Los Grados Kelvin son : " +resultado);
+              }
+              convertirCelsiusaKelvin(celsius);
+              break;
+    
+      default: alert("Ingrese un numero valido");    
+      break;
+    }
+
+}
+
+convertidorTemperaturaCelsius();
+
+
+//**========================================================= */
+
+
+
+
+
 
 
 
