@@ -24,17 +24,36 @@ function calculoMasaCorporal(){
   alert("CALCULO DEL INDICE DE MASA CORPORAL (IMC)")
   let peso =   parseInt(prompt("Ingrese su PESO"));
   let altura = parseInt(prompt("Ingrese su ALTURA"));
-  let imc = peso / (altura * altura);
+  let imc = 703 * peso / (altura * altura);
+  let resultado = Math.round(imc);
 
-  alert("Su IMC es: " +Math.round(imc));
+  if(altura==""|| peso =="" ){
+    alert("Debes ingresar los datos completos");
+    return;
+  }
+
+  alert("Su IMC es: " +resultado);
+
+  if(imc>=18.5 && imc<=24.9 ){
+  alert("Peso Normal")
+  }
+  else if(imc>=25 && imc<=29.9){
+    alert("Peso más alto al normal");
+  }
+  else if(imc>=30){
+    "Demasiado alto, tienes problemas de obesidad"
+  }
+  else if(imc<=18.5){
+    alert("Peso más bajo al normal");
+  }
+  else{
+    alert("Debes ingresar peso y altura"  );
+  }
 }
 
 calculoMasaCorporal();
 
-
 //**========================================================= */
-
-
 
 
 
@@ -77,3 +96,104 @@ function numeroPrimoEncontrar(){
 numeroPrimoEncontrar();
 
 //**========================================================= */
+
+
+
+
+
+
+//**=======================EJERCICIO 4 ======================= */
+
+function menuCalculadora(){
+  alert( "=========CALCULADORA BÁSICA========= \n|| Selecciona una opción para realizar la operación || \n  1.SUMA                                              \n  2.RESTA                                           \n  3.MULTIPLIACIÓN                             \n  4.DIVISIÓN                                       \n||================================||  " );
+
+  let opcion = Number(prompt("Ingrese una Opción"));
+  let num1=0;
+  let num2=0;
+  let resultado=0;
+  
+    switch (opcion) {
+      case 1:
+              alert("INGRESE 2 NUMEROS PARA REALIZAR LA SUMA");
+              num1= Number(prompt("Ingrese el primer numero"));
+              num2= Number(prompt("Ingrese el segundo numero"));
+              function sumarNumeros(num1,num2){
+               resultado = num1+num2;
+               return alert("La SUMA de los numeros es: " +resultado);
+              }
+               sumarNumeros(num1,num2);
+        
+              break;
+      case 2: 
+              alert("INGRESE 2 NUMEROS PARA REALIZAR LA RESTA");
+              num1= Number(prompt("Ingrese el primer numero"));
+              num2= Number(prompt("Ingrese el segundo numero"));
+              function restarNumeros(num1,num2){
+                resultado = num1-num2;
+                return alert("La RESTA de los numeros es: " +resultado);
+              }
+               restarNumeros(num1,num2);
+        
+              break;
+      case 3: 
+              alert("INGRESE 2 NUMEROS PARA REALIZAR LA MULTIPLICACION");
+              num1= Number(prompt("Ingrese el primer numero"));
+              num2= Number(prompt("Ingrese el segundo numero"));
+              function multiplicarNumeros(num1,num2){
+                resultado= num1*num2;
+                return alert("La MULTIPLICACION de los numeros es: " +resultado);
+              }
+               multiplicarNumeros(num1,num2);
+              break;
+      case 4: 
+              alert("INGRESE 2 NUMEROS PARA REALIZAR LA DIVISION");
+              num1= Number(prompt("Ingrese el primer numero"));
+              num2= Number(prompt("Ingrese el segundo numero"));
+              function dividirNumeros(num1,num2){
+                resultado=num1/num2;
+                return alert("La DIVISION de los numeros es: " +resultado);
+              }
+               dividirNumeros(num1,num2);
+              break;
+    
+      default: alert("Ingrese un numero valido");    
+      break;
+    }
+
+}
+
+menuCalculadora();
+
+
+//**========================================================= */
+
+
+
+
+
+
+
+//**=======================EJERCICIO 9 ======================= */
+
+function menuCalculadora(){
+ 
+
+}
+
+menuCalculadora();
+
+
+//**========================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
