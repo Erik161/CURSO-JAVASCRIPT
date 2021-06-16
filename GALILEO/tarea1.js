@@ -184,14 +184,14 @@ function convertidorTemperaturaCelsius(){
       case 1:
               function convertirCelsiusaFahrenheit(celsius){
                 resultado = celsius * 1.8 + 32;
-                return alert("Los Grados Fahrenheit son : " +resultado);
+                return alert("El Equivalente en Grados Fahrenheit es : " +resultado);
               }
               convertirCelsiusaFahrenheit(celsius);
               break;
       case 2: 
               function convertirCelsiusaKelvin(celsius){
                 resultado = celsius + 273.15;
-                return alert("Los Grados Kelvin son : " +resultado);
+                return alert("El equivalente en Grados Kelvin es : " +resultado);
               }
               convertirCelsiusaKelvin(celsius);
               break;
