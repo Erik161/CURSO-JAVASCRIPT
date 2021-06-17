@@ -212,9 +212,80 @@ convertidorTemperaturaCelsius();
 
 
 
+//**=======================EJERCICIO 6 ======================= */
+
+function sumaPrimerosNumeros(){
+  alert( "=========SUMA DE LOS PRIMEROS NUMEROS========= \n \n Ingrese un numero para ser sumado." );
+  let numero = Number(prompt("Ingrese un numero"));
+  let sumatoria =0;
+
+  function sumarnumero(numero){
+
+    for (let  i= 1; i <= numero; i++){
+
+      let sumatoria = sumatoria + i;
+
+    } 
+      
+    return alert("La suma de numero es: " +sumatoria);
+  
+  }
+  
+}
+
+sumaPrimerosNumeros();
+
+
+//**========================================================= */
 
 
 
+
+
+
+
+//**=======================EJERCICIO 7 ======================= */
+
+ function convertiraRomano(numero){
+        let letromanos ={
+          D:  500,
+          CD: 400,
+          C : 100,
+          XC: 90,
+          L:  50,
+          XL: 40,
+          X : 10,
+          IX: 9,
+          V : 5,
+          IV: 4,
+          I : 1
+        }
+    
+        let resultado = '';
+
+      for (let palabra in letromanos){
+
+        if(numero==letromanos[palabra]){
+
+          return resultado +=palabra;
+
+        }
+        let chequeo = numero > letromanos[palabra];
+        if(chequeo){
+          resultado = resultado + palabra.repeat(parseInt(numero/letromanos[palabra]));
+          numero = numero%letromanos[palabra];
+        }
+      } 
+      return resultado;
+  }
+
+  // Se manda a llamar 3 veces con numeros aleatorios
+  console.log(convertiraRomano(21));
+  console.log(convertiraRomano(60));
+  console.log(convertiraRomano(300));
+ 
+
+//**========================================================= */
 
 
 
