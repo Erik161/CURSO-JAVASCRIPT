@@ -217,24 +217,19 @@ convertidorTemperaturaCelsius();
 function sumaPrimerosNumeros(){
   alert( "=========SUMA DE LOS PRIMEROS NUMEROS========= \n \n Ingrese un numero para ser sumado." );
   let numero = Number(prompt("Ingrese un numero"));
-  let sumatoria =0;
+
 
   function sumarnumero(numero){
 
-    for (let  i= 1; i <= numero; i++){
-
-      let sumatoria = sumatoria + i;
-
-    } 
+    let sumatoria = Number(numero*(numero+1)/2);
       
     return alert("La suma de numero es: " +sumatoria);
   
   }
-  
+  sumarnumero(numero);
 }
 
 sumaPrimerosNumeros();
-
 
 //**========================================================= */
 
