@@ -286,3 +286,100 @@ sumaPrimerosNumeros();
 
 
 
+//**=======================EJERCICIO 8 ======================= */
+function recibenum(num){
+  console.log('INGRESO');
+  console.log(num);
+  let numn = mitad(num);
+  console.log('SALIDA');
+  console.log(numn);
+  let result = 0;
+  let p = 0;
+  if(numn > 1){
+  do {
+          var numviene = 0;
+          if(p == 0){
+            numviene = numn;
+            result = mitad(numviene);
+            console.log(result);
+          }else{
+            numviene = result;
+            result = mitad(numviene);
+            console.log(result);
+          }
+          p++;
+  }
+  while (1 < result);
+  }else{
+      return false;
+    }
+
+
+  function mitad(num){
+
+    var resp = num / 2;
+      return resp;
+        
+  }
+        
+}
+
+
+
+
+
+
+//**========================================================= */
+
+
+
+
+
+
+
+
+
+
+//**=======================EJERCICIO 9 ======================= */
+
+function numeros(num){
+  console.log(num);
+  if(num < 20){
+    let nnum = num + 1;
+    return numeros(nnum);
+  }else{
+    return false;
+  }
+}
+numeros(1);
+
+
+//**========================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
