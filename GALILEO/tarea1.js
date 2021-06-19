@@ -342,16 +342,15 @@ function recibenum(num){
 
 //**=======================EJERCICIO 9 ======================= */
 
-function numeros(num){
-  console.log(num);
-  if(num < 20){
-    let nnum = num + 1;
-    return numeros(nnum);
+function num1al20(numero){
+  console.log(numero);
+  if(numero < 20){
+    return num1al20(numero +1);
   }else{
     return false;
   }
 }
-numeros(1);
+num1al20(1);
 
 
 //**========================================================= */
