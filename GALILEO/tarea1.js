@@ -2,11 +2,11 @@
 
 //**=======================EJERCICIO 1 ======================= */
 function histograma(numero1,numero2,numero3,numero4,numero5){
-    var numero1 = "*****";  
-    var numero2 = "***";
-    var numero3 = "**";
-    var numero4 = "****";
-    var numero5 = "*";
+    let numero1 = "*****";  
+    let numero2 = "***";
+    let numero3 = "**";
+    let numero4 = "****";
+    let numero5 = "*";
    
     alert( numero1+ "\n"  +numero2+ "\n" +numero3+ "\n" +numero4+ "\n" +numero5);
   }
@@ -281,6 +281,102 @@ sumaPrimerosNumeros();
  
 
 //**========================================================= */
+
+
+
+
+
+
+//**=======================EJERCICIO 8 ======================= */
+function recibenum(num){
+  console.log('INGRESO');
+  console.log(num);
+  let numn = mitad(num);
+  console.log('SALIDA');
+  console.log(numn);
+  let result = 0;
+  let p = 0;
+  if(numn > 1){
+  do {
+          var numviene = 0;
+          if(p == 0){
+            numviene = numn;
+            result = mitad(numviene);
+            console.log(result);
+          }else{
+            numviene = result;
+            result = mitad(numviene);
+            console.log(result);
+          }
+          p++;
+  }
+  while (1 < result);
+  }else{
+      return false;
+    }
+
+
+  function mitad(num){
+
+    var resp = num / 2;
+      return resp;
+        
+  }
+        
+}
+
+//**========================================================= */
+
+
+
+
+
+
+
+
+
+
+//**=======================EJERCICIO 9 ======================= */
+
+function num1al20(numero){
+  console.log(numero);
+  if(numero < 20){
+    return num1al20(numero +1);
+  }else{
+    return false;
+  }
+}
+num1al20(1);
+
+
+//**========================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
