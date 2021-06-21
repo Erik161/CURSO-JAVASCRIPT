@@ -109,6 +109,25 @@ multiplica(6,4);
 
 
 
+//**===================EJEMPLO DE ARREGLOS======================= */
+
+//EJEMPLO 1
+https://jsbin.com/degizeqaye/edit?js,console,output
+
+
+//EJEMPLO 2
+https://jsbin.com/dezuxaxewi/edit?js,console,output
+
+
+//EJEMPLO 3
+https://jsbin.com/feduvozevu/edit?js,console,output
+
+
+//EJEMPLO 4
+https://jsbin.com/panajetiti/edit?js,console,output
+
+//**============================================================ */
+
 
 
 
