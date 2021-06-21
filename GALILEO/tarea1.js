@@ -287,42 +287,45 @@ sumaPrimerosNumeros();
 
 
 //**=======================EJERCICIO 8 ======================= */
-function recibenum(num){
+function recibenumero(numero1){
   console.log('INGRESO');
-  console.log(num);
-  let numn = mitad(num);
+  console.log(numero1);
+  let numn = mitad(numero1);
   console.log('SALIDA');
   console.log(numn);
-  let result = 0;
+  let resultado = 0;
   let p = 0;
   if(numn > 1){
   do {
           var numviene = 0;
           if(p == 0){
             numviene = numn;
-            result = mitad(numviene);
-            console.log(result);
+            resultado = mitad(numviene);
+            console.log(resultado);
           }else{
-            numviene = result;
-            result = mitad(numviene);
-            console.log(result);
+            numviene = resultado;
+            resultado = mitad(numviene);
+            console.log(resultado);
           }
           p++;
   }
-  while (1 < result);
+  while (1 < resultado);
   }else{
       return false;
     }
 
 
-  function mitad(num){
+  function mitad(numero1){
 
-    var resp = num / 2;
-      return resp;
+    var respuesta = numero1 / 2;
+      return respuesta;
         
   }
         
 }
+
+
+recibenumero(9);
 
 
 //**========================================================= */
