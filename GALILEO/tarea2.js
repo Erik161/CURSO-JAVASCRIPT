@@ -12,6 +12,7 @@ console.log("Devuelve: " +diaSemana[4]);
 
 
 
+
 //**===========================EJERCICIO 2 ============================ */
 alert("=====INGRESE 10 NUMEROS PARA SER GUARDADOS EN UN ARREGLO=========");
 let num1 = Number(prompt("Ingrese el primer numero"));
@@ -26,16 +27,8 @@ let num9 = Number(prompt("Ingrese el noveno numero"));
 let num10 = Number(prompt("Ingrese el decimo numero"));
 
 let imprimirNumeros = [];
-imprimirNumeros.push(num1);
-imprimirNumeros.push(num2);
-imprimirNumeros.push(num3);
-imprimirNumeros.push(num4);
-imprimirNumeros.push(num5);
-imprimirNumeros.push(num6);
-imprimirNumeros.push(num7);
-imprimirNumeros.push(num8);
-imprimirNumeros.push(num9);
-imprimirNumeros.push(num10);
+imprimirNumeros.push(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10);
+
 
 alert("Los Numero Guardados y en posición son: \n" +imprimirNumeros);
 //**=================================================================== */
@@ -58,16 +51,7 @@ let num9 = Number(prompt("Ingrese el noveno numero"));
 let num10 = Number(prompt("Ingrese el decimo numero"));
 
 let imprimirNumeros = [];
-imprimirNumeros.push(num1);
-imprimirNumeros.push(num2);
-imprimirNumeros.push(num3);
-imprimirNumeros.push(num4);
-imprimirNumeros.push(num5);
-imprimirNumeros.push(num6);
-imprimirNumeros.push(num7);
-imprimirNumeros.push(num8);
-imprimirNumeros.push(num9);
-imprimirNumeros.push(num10);
+imprimirNumeros.push(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10);
 
 let minimo = Math.min.apply(null,imprimirNumeros);
 let maximo = Math.max.apply(null,imprimirNumeros);
@@ -75,47 +59,6 @@ let maximo = Math.max.apply(null,imprimirNumeros);
 alert("Los Numero Guardados y en posición son: \n" +imprimirNumeros);
 alert("El numero minimo es : " +minimo+ "\n El numero maximo es: " +maximo);
 //**========================================================================== */
-
-
-
-
-
-
-
-
-//**==========================EJERCICIO 4 =============================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-//**====================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
