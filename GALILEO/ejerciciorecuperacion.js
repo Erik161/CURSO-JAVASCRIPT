@@ -18,3 +18,45 @@ palindromoidentificar();
 
 //**======================================================================== */
 
+
+
+
+
+
+
+
+
+//**==========================EJERCICIO 2 =============================== */
+
+function cantidadpalabras(){
+    let palabras=[];
+    for(let i=0;i<5; i++){
+        palabra[i]=prompt("Ingrese una frase").toLocaleLowerCase();
+        palabra = palabra.replace(/ /g, "");
+        palabra.length;
+    }
+}
+
+cantidadpalabras();
+
+
+//**======================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
