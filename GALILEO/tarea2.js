@@ -64,5 +64,31 @@ alert("El numero minimo es : " +minimo+ "\n El numero maximo es: " +maximo);
 
 
 
+//**==========================EJERCICIO 4 =============================== */
+alert("==INGRESE 10 NUMEROS PARA SER GUARDADOS EN UN ARREGLO==");
+let num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
+
+
+let arreglo1 = [];
+arreglo1.push(0,0,0,0,0,0,0,0,0,0);
+
+
+
+
+let arreglo2 = [];
+arreglo2.push(0,0,0,0,0,0,0,0,0,0);
+
+
+
+let arreglo3 = [];
+arreglo3.push(0,0,0,0,0,0,0,0,0,0);
+
+
+//**========================================================================== */
+
+
+
+
+
 
 
