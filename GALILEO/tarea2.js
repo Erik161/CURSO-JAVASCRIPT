@@ -92,8 +92,13 @@ for (i=0; i<arreglo1.length; i++){
   arreglo3[i]=arreglo1[i]+arreglo2[i];
 }
 
-console.log(arreglo1)
-console.log(arreglo2)
+
+
+console.log("ARREGLO 1");
+console.log(arreglo1);
+console.log("ARREGLO 2");
+console.log(arreglo2);
+console.log("ARREGLO 3 \n SUMA DE ARREGLO1 Y ARREGLO 2 POR POSICIÓN");
 console.log(arreglo3);
 
 
