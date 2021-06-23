@@ -68,26 +68,72 @@ alert("El numero minimo es : " +minimo+ "\n El numero maximo es: " +maximo);
 alert("==INGRESE 10 NUMEROS PARA SER GUARDADOS EN UN ARREGLO==");
 let num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
 
-
 let arreglo1 = [];
-arreglo1.push(0,0,0,0,0,0,0,0,0,0);
-
-
+arreglo1.push(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10);
 
 
 let arreglo2 = [];
-arreglo2.push(0,0,0,0,0,0,0,0,0,0);
+arreglo2.push(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10);
 
-
+parseInt
 
 let arreglo3 = [];
-arreglo3.push(0,0,0,0,0,0,0,0,0,0);
+arreglo3.push(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10);
+
+
+
+
+
+let arreglo1 = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+
+
+let arreglo2 = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+
+let arreglo3 =[];
+
+
+for (i=0; i<arreglo1.lenght; i++){
+  
+  arreglo3[i]=arreglo1[i]+arreglo2[i];
+}
+
+console.log(arreglo1)
+console.log(arreglo2)
+console.log(arreglo3);
+
+
+
+
+var arr1 = [1,2,3,4];
+var arr2 = [2,1,3,4];
+var r = [];
+
+for(i = 0; i < arr1.length; i++){
+  r[i] =arr1[i]+arr2[i];
+}
+console.log(arr1)
+console.log(arr2)
+console.log(r);
+
+
+
+
+let arreglo1 = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+
+
+let arreglo2 = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+
+
+let arreglo3 = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+
+  
+
+   console.log(arreglo1);
+   console.log(arreglo2);
+   console.log(arreglo3);
 
 
 //**========================================================================== */
-
-
-
 
 
 
