@@ -107,3 +107,29 @@ console.log(arreglo3);
 
 
 
+
+
+
+//**==========================EJERCICIO 5 =============================== */
+let arreglo = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
+          alert("ARREGLO \n" +arreglo);
+let numero = parseInt(prompt("Ingresa un numero"));
+
+
+
+//**========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
