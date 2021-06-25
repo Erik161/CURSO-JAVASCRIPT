@@ -112,10 +112,15 @@ console.log(arreglo3);
 
 //**==========================EJERCICIO 5 =============================== */
 let arreglo = Array.from({length: 10}, () => Math.floor(Math.random() * 100));
-          alert("ARREGLO \n" +arreglo);
-let numero = parseInt(prompt("Ingresa un numero"));
+          alert("NUMEROS QUE SE ENCUENTRAN EN EL ARREGLO: \n" +arreglo);
+let numero = parseInt(prompt("INGRESA UN NUMERO"));
+let verificar= arreglo.indexOf(numero);
 
-
+if(verificar===-1){
+  alert("-1 NO EXISTE EN EL ARREGLO.");
+}else{
+  alert("POSICIÓN " +arreglo.indexOf(numero)+ " DEL ARREGLO.");
+}
 
 //**========================================================================== */
 
